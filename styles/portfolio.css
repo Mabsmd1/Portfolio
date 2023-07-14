@@ -56,7 +56,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -106,8 +106,20 @@ p {
   padding: 25px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
 img {
   border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 15px;
 }
 
 @media (max-width: 900px) {
