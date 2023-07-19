@@ -184,8 +184,17 @@ footer .social-links a:hover {
     padding: 0;
   }
 
+  .content h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }
