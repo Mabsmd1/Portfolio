@@ -24,7 +24,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
-            <a href="/" class="navbar-brand" title="Sinah's Logo">Sinah Moaga</a>
+            <a href="/" class="navbar-brand" title="Sinah's Logo">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,10 +47,10 @@
             </div>
         </div>
     </nav>
-    <div class="hero">
+    <div class="hero align-items-center justify-content-center text-white">
         <p>👋🏼 Hello, I am</p>
         <h1>Sinah Moaga</h1>
-        <h2 class="mb-5">🇿🇦 Front-end developer, based in 📍South Africa</h2>
+        <h2 id="typed"class="mb-3">🇿🇦 Front-end developer, based in 📍South Africa</h2>
         <div>
             <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
         </div>
@@ -168,6 +168,17 @@
             </p>
         </footer>
     </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#typed', {
+        strings: ['🇿🇦 Front-end Developer', 'Enterpreneur', 'based in 📍South Africa.'],
+        loop: true,
+        typeSpeed: 85,
+        
+        });
+    </script>
 </body>
 
 </html>

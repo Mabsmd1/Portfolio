@@ -138,6 +138,10 @@ img {
   color: var(--branding-color) !important;
 }
 
+.navbar {
+  opacity: 97%;
+}
+
 .nav-item {
   padding: 0 15px;
 }
@@ -145,6 +149,7 @@ img {
 .skill-text {
   font-size: 20px;
 }
+
 
 footer {
   margin: 60px 0;
