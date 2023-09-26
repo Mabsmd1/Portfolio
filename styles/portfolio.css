@@ -47,10 +47,11 @@ p {
 
 
 .hero {
-  background: var(--secondary-color);
+  
   text-align: center;
   padding: 100px 20px;
 }
+
 
 .hero p {
   font-size: 36px;
@@ -132,8 +133,6 @@ img {
   border-radius: 10px;
 }
 
-
-
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--branding-color) !important;
 }
@@ -188,6 +187,12 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+@media (max-width: 768px) {
+  #typed {
+    font-size: 15px;
+  }
 }
 
 
